@@ -17,7 +17,7 @@ All the code is tested and inspected by external services.
 
 Install the library with composer:
 ```php
-composer require romeritoCL/log-viewer-bundle
+composer require devoralive/log-viewer-bundle
 ```
 
 Enable the bundle in AppKernel.php
@@ -27,7 +27,7 @@ new Devoralive\LogViewerBundle\LogViewerBundle(),
 
 Add this in `config/routing.yml`
 ```php
-log_viewer:
+log-viewer:
     resource: "@LogViewerBundle/Resources/config/routing.yml"
     prefix:   /_logs
 ```
