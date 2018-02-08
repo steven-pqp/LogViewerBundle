@@ -22,7 +22,7 @@ composer require romeritoCL/log-viewer-bundle
 
 Enable the bundle in AppKernel.php
 ```php
-new SBC\LogTrackerBundle\LogViewerBundle(),
+new Devoralive\LogViewerBundle\LogViewerBundle(),
 ```
 
 Add this in `config/routing.yml`
