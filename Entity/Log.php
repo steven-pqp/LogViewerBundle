@@ -34,7 +34,7 @@ class Log implements \JsonSerializable
     private $description;
 
     /**
-     * @var \DateTime
+     * @var string
      *
      */
     private $dateLog;
@@ -72,8 +72,8 @@ class Log implements \JsonSerializable
      */
     public function setDateLog($dateLog)
     {
-        $this->dateLog = $dateLog;
-    
+        $this->dateLog = $dateLog->format('h:i:s d-m-Y');
+
         return $this;
     }
 
@@ -97,7 +97,7 @@ class Log implements \JsonSerializable
     public function setDescription($description)
     {
         $this->description = $description;
-    
+
         return $this;
     }
 

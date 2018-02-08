@@ -15,7 +15,7 @@ class LogAnalyzer
      * @var SplFileInfo
      */
     private $logFile;
-    
+
     public function __construct(SplFileInfo $logFile)
     {
         $this->logFile = $logFile;

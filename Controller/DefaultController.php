@@ -4,6 +4,7 @@ namespace Devoralive\LogViewerBundle\Controller;
 use Devoralive\LogViewerBundle\Components\LogAnalyzer;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\Finder\Finder;
+use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 
 /**
