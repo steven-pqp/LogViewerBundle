@@ -1,0 +1,7 @@
+log_viewer_dev:
+    path:     /_dev
+    defaults: { _controller: LogViewerBundle:Default:devLog }
+
+log_viewer_prod:
+    path:     /_prod
+    defaults: { _controller: LogViewerBundle:Default:prodLog }
