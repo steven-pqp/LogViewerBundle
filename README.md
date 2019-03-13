@@ -1,9 +1,7 @@
 # LogViewerBundle
 
-[![Build Status](https://travis-ci.org/PagaMasTarde/pmtApiClient.svg?branch=master)](https://travis-ci.org/romeritoCL/LogViewerBundle)
 [![Latest Stable Version](https://poser.pugx.org/pagamastarde/pmt-api-client/v/stable)](https://packagist.org/packages/romeritoCL/LogViewerBundle)
 [![composer.lock](https://poser.pugx.org/pagamastarde/pmt-api-client/composerlock)](https://packagist.org/packages/romeritoCL/LogViewerBundle)
-[![Maintainability](https://api.codeclimate.com/v1/badges/c777428d857cccb6bfca/maintainability)](https://codeclimate.com/github/romeritoCL/LogViewerBundle/maintainability)
 
 The Logger viewer bundle is a simple way to display the logs of your Symfony application. It will
 read the logs from the monolog bundle route and display them in Json format in the browser.
